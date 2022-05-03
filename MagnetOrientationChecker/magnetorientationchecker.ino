@@ -89,7 +89,7 @@ void loop() {
   //only two magnets present, but orientation unknown
   //all we know is that they're opposite of each other
   if ( (val[3] > southThresh || val[4] > southThresh) &&
-      (val[5] == 0 || val[6] == 0) )
+      (val[5] == 1 || val[6] == 1) )
   {
     check = 0;
   }
