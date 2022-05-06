@@ -100,7 +100,7 @@ void loop() {
   }
   else
   {
-    pixels.setPixelColor(1, pixels.Color(0, 0, 0));
+    pixels.setPixelColor(1, pixels.Color(255, 0, 0));
   }
   Serial.print("\n");
   pixels.show();
